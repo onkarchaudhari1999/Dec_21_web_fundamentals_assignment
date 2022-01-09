@@ -1,0 +1,56 @@
+body{
+    background-color: yellow;
+    text-align: center;
+    border: 6px solid black;
+}
+#heading{
+    color: red;
+    display: block;
+    background-color: rosybrown;
+    padding: 7px;
+    border-color: darkslateblue;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+}
+#adj{
+    color: green;
+    display:inline;
+    padding: 5px;
+    background-color: yellowgreen;
+    border: 2px solid red;
+}
+p{
+    color: indigo;
+    background-color: sandybrown;
+    border-radius: 25px ;
+    border-width: 4px ;
+    border-style: solid ;
+    border-color: darkred;
+}
+.same{
+    color:purple;
+    background-color: springgreen;
+    border: 2px solid blueviolet;
+}
+#botm{
+    color: navy;
+    background-color: chartreuse;
+    border-color: deeppink;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+}
+#top{
+    background-color: orange;
+}
+button{
+    background-color: rgb(223, 128, 61);
+    margin: 3px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    padding: 5px;
+    width: 25vw;
+}
