@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(white,grey);
+}
+#outer{
+    background-image: linear-gradient(#ccfbff,#ef96c5);
+    border-left: 1px solid gray; 
+    border-right: 2px solid black;
+    border-top: 1px solid gray;
+    border-bottom: 3px solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-right: 520px;
+    margin-left: 520px;
+}
+#top{
+    color: grey;
+    text-align: right;
+    border: 1px solid rgb(17, 2, 2);
+    border-radius: 10px;
+    width: 200px;
+    height: 90px;
+    margin:9px;
+}
+
+#c{
+    background-color: red;
+    margin-left: 15px; 
+    width: 35px;
+}
+.bluebutton{
+    background-color: skyblue;
+    margin-left: 15px;
+    width: 35px;
+    margin-top: 10px;
+}
+.greenbutton{
+    margin-left: 15px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: green;
+    margin-top: 10px;
+}
+.num{
+    color: grey;
+    background-color: palegreen;
+    margin-left: 15px;
+    width: 35px;
+    margin-top: 10px;
+}
+#zero{
+    width : 70px;
+    background-color: palegreen;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#special{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
