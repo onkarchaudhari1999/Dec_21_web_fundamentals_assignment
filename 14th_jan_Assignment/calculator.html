@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8" /> <!-- SJIS (Shift JIS) -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div id="outer">
+       <div id="op"> <h2 id="output">&nbsp;</h2> </div>
+        <button id="backspace" onClick="deleteLastDigit();">⬅</button>
+        <br>
+        <button onClick='concatNumber("1");'>1</button>
+        <button onClick='concatNumber("2");'>2</button>
+        <button onClick='concatNumber("3");'>3</button>
+        <button onClick='setOperator("+");'>+</button>
+        <br />
+        <button onClick='concatNumber("4");'>4</button>
+        <button onClick='concatNumber("5");'>5</button>
+        <button onClick='concatNumber("6");'>6</button>
+        <button onClick='setOperator("-");'>-</button>
+        <br />
+        <button onClick='concatNumber("7");'>7</button>
+        <button onClick='concatNumber("8");'>8</button>
+        <button onClick='concatNumber("9");'>9</button>
+        <button onClick='setOperator("*");'>✳</button>
+       
+        <br />
+        <button onClick="clearAll();">c</button>
+        <button onClick='concatNumber("0");'>0</button>
+        <button onClick="equals();">=</button>
+        <button onClick='setOperator("/");'>/</button>
+         <br />
+         </div> 
+        <script src="calculator.js"></script>
+    </body>
+</html>

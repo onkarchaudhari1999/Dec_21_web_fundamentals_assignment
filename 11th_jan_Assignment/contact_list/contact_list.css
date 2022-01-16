@@ -1,0 +1,33 @@
+h3{
+    color : red;
+}
+h5{
+    color: blue;
+    background-image: linear-gradient(grey,lightblue);
+    border-radius: 10px;
+    margin: 0%;
+    padding: 7px;
+    top : 00px;
+    position: sticky;
+}
+body{
+    text-align: center;
+    background-image : linear-gradient(#abecd6,#fbed96);
+    margin-bottom: 50px;
+}
+#outer{
+    margin-left: 320px ; 
+    height : 300px;
+    width  : 200px;
+    border : 2px solid;
+    border-radius: 10px;
+    overflow-y:scroll;
+}
+
+button{
+    display: block;
+    width: 188px;
+    /* height: 15px; */
+    background-image: linear-gradient(lightgreen,yellow);
+    border-radius: 10px;
+}
