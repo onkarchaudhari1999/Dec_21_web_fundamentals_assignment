@@ -1,0 +1,14 @@
+th{
+  border: 2px solid green;
+  background-color: goldenrod;
+  color: orangered;
+  padding: 15px;
+}
+
+td {
+    border: 2px solid goldenrod;
+    padding: 10px;
+    background-color: #ffa781;
+    color: #5b0e2d;
+  }
+  
