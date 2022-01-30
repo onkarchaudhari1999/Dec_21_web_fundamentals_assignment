@@ -1,0 +1,33 @@
+
+
+
+#cont{
+   background-color: lightgreen;
+    margin: -95px;
+    padding: 100px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: yellowgreen;
+    font-size: 18px;
+   
+}
+div{
+    margin: 9px;
+    background-color: rebeccapurple;
+    width: 280px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+div:hover{
+    background-color: rgb(88, 15, 161);
+    color: yellow;
+    font-size: 18px;
+    box-shadow: none;
+}
+
+
