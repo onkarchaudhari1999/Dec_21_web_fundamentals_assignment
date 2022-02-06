@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 223, 226);
+}
+main{
+    margin: 100px auto 0 auto;
+    border: 2px solid rgb(134, 17, 89);
+    width: 500px;
+    text-align: center;
+    background-color: lightsalmon;
+}
+h1{
+    text-decoration: underline;
+    color: darkorchid;
+}
+img{
+    height: 200px;
+    border-radius: 50%;
+}
+#author{
+    font-size: 18px;
+    font-weight: 1000;
+}
+p{
+    padding: 10px;
+    color: darkslategrey;
+}
+button{
+    padding: 5px;
+    background-color:lightgray;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+div{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 100px 20px 0 20px;
+    background-color: lightpink;
+    margin-bottom: 20px;
+}
