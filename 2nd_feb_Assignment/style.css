@@ -1,0 +1,31 @@
+#container{
+    height: 300px;
+    width: 400px;
+    border: 2px solid blue;
+    
+}
+#start{
+    
+    margin-left: 50px;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    margin-top: 70px;
+}
+#reset{
+    
+    margin-left: 100px;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+}
+#time{
+    display: flex;
+    padding-left: 40px;
+
+}
+body{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
